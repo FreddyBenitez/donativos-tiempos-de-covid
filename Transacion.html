@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transaciones</title>
+<link rel="stylesheet" href="css/estilos.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="css/transacion.css">
+<script type="text/javascript" src="js/admin.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<header>
+ <nav>
+  <a href="index.html">Inicio</a>
+  <a href="Admin.html">Administracion</a>
+  <a href="Consultas.html">Consultas para el usuarios</a>
+  <a href="Transacion.html">Transaciones de usuario</a>
+  <a href="Acercade.html">Acerca de</a>
+  <a href="registro.html">Registro</a>
+  <a href="InicioSeccion.html">Iniciar Sesion</a>
+</nav>
+<section class="textos-header">
+      <h1>Unete a las donaciones por los demas</h1>
+      <h2>Creemos un amanecer diferente</h2> 
+
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>  </header>
+
+<section class="container">  
+  <div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <div class="card">
+      <h2>Tipos de donaciones</h2>
+      <div class="fakeimg" style="height:200px;"></div>
+ <p>Escoja la opcion que desee para aportar tu granito de arena no importa el bien o valor que nos brinde tu aportacion es muy importante para nosotros ya que ayudara a personas que no tienen como sobrevivir.</p> 
+      <h4>Seleccione una opcion para donar.</h4>
+  <form  name="EnviarForm"  id="form-orden">
+  <h5>Tu donacion aqui:</h5>
+  <input type="checkbox" name="Tour1" value="Bike">
+  <label for="Tour1">donar mediciana</label><br>
+  <input type="checkbox" name="Tour2" value="Bikee">
+  <label for="Tour2">donar ropa</label><br>
+  <input type="checkbox" name="Tour2" value="Bikee">
+  <label for="Tour2">donar alimento</label><br>
+  <input type="checkbox" name="Tour2" value="Bikee">
+  <label for="Tour2">donar juguets</label><br>
+</p>
+
+  <p>
+    <label for="name">Nombre </label><br>
+    <input type="text" name="nombre" id="nombre"
+    placeholder="ingrese su nombre"
+    autofocus
+    autocomplete
+    required>
+  </p>
+<p>
+    <label for="name">Apellido </label><br>
+    <input type="text" name="apellido" id="apelldio"
+    placeholder="Ingrese su apellido"
+    autofocus
+    autocomplete
+    required>
+</p>
+<p>
+    <label for="name">Edad </label><br>
+    <input type="int" name="edad" id="edad"
+    placeholder="Ingrse su edad "
+    autofocus
+    autocomplete
+    required>
+</p>
+<p>
+    <label for="name">Pais</label><br>
+    <input type="text" name="pais" id="pai"
+    placeholder="Ingrese su pais "
+    autofocus
+    autocomplete
+    required>
+  </p>
+  <p>
+    <label for="email">Email</label>
+    <p><input type="text" id="email" 
+    placeholder="donares@gmail.com"required /></p>
+  </p>
+    <p>
+      <input type="button" class="button" onclick="solicitar()" value="Enviar"  />
+    </p>
+</form> 
+  </div>
+</div>
+</div>  
+</section>
+
+<footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono/Celular</h4>
+                <p>996141651</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>Donativos-FB@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Direccion</h4>
+                <p>Jaramjo-Manabi-Ecuador</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Dona una Oportunidad para ayudar | Freddy Benitez</h2>
+    </footer>
+</body>
+</html>
